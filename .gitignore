@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and generated app data
+calibration.json
+logs/*
+!logs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+recordings/*
+!recordings/.gitkeep
+
+# Generated alert sounds
+sounds/*.wav
+!sounds/.gitkeep
+
+# Model weights are downloaded separately
+*.pt
+models/*
+!models/.gitkeep
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
